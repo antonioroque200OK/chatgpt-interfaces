@@ -45,3 +45,7 @@ func (m *Message) Validate() error {
 	}
 	return nil
 }
+
+func (m *Message) GetQtyTokens() int {
+	return m.Tokens
+}
